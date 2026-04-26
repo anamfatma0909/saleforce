@@ -1,0 +1,31 @@
+# Salesforce Workflow Automation Project
+
+## 📌 Problem Statement
+Business wants to track high-value sales under an Opportunity and get notified when multiple high-value sales are created.
+
+## 💡 Solution
+A custom object "Sales" is created with a Master-Detail relationship to Opportunity. Automation is implemented using Workflow Rules.
+
+## ⚙️ Features
+- Custom Object (Sales)
+- Master-Detail Relationship (Opportunity → Sales)
+- Roll-Up Summary Fields
+- Workflow Rule Automation
+- Email Alerts
+- Task Creation
+
+## 🔁 Working
+When 2 or more Sales records with Amount ≥ 100,000 are created under an Opportunity:
+- Email notification is triggered
+- Task is created for Opportunity Owner
+
+## 📊 Result
+The system successfully sends email alerts and creates tasks automatically.
+
+## 🧪 Testing
+- Created Opportunity
+- Added 2 Sales records ≥ 100,000
+- Email received successfully
+
+## 🚀 Conclusion
+Automation reduces manual effort and ensures timely notification of high-value opportunities.
